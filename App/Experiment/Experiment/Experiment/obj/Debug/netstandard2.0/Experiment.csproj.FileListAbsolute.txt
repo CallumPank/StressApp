@@ -1,0 +1,16 @@
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\bin\Debug\netstandard2.0\Experiment.deps.json
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\bin\Debug\netstandard2.0\Experiment.dll
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\bin\Debug\netstandard2.0\Experiment.pdb
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.csprojAssemblyReference.cache
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.csproj.CoreCompileInputs.cache
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.AssemblyInfoInputs.cache
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.AssemblyInfo.cs
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.dll
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.pdb
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\HelloXamlPage.xaml.g.cs
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Distressed.xaml.g.cs
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Contact.xaml.g.cs
+C:\Users\Callum\Desktop\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Harmed.xaml.g.cs

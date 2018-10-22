@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Experiment.HelloXamlPage">
+    
+    <ContentPage.Content>
+        <Label Text="Stress App Init"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Rotation="15"
+               IsVisible="True"
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="IndianRed" />
+    </ContentPage.Content>
+
+    <StackLayout>
+        <Slider VerticalOptions="Center" 
+                ValueChanged="OnSliderValueChanged"/>
+
+        <Label x:Name="valueLabel"
+               Text="Rate Your Happiness"
+               Font="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Back"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" 
+                Clicked="backToHome"/>
+
+    </StackLayout>
+
+</ContentPage>
