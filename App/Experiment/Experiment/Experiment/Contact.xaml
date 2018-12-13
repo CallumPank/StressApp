@@ -2,11 +2,124 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Experiment.Contact">
+    <ContentPage.ToolbarItems>
+       <ToolbarItem 
+           Text="Emergency Contact Details" />
+            </ContentPage.ToolbarItems>
+    
     <ContentPage.Content>
+       
         <StackLayout>
-            <Label Text="Welcome to Contact Details!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label 
+                Text="For immediate emergency assistance in the UK call 999. " 
+                TextColor="Red"
+                FontSize="Large"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Button
+                    Text="Back"
+                    HorizontalOptions="End"
+                    Grid.Row="0" Grid.Column="1"
+                    Clicked="backToHome"
+                    />
+
+                <Label 
+                        Text ="Emergency Contact 1"
+                       />
+
+                <Label 
+                    Text="Name Of Contact:"
+                    Grid.Row="1" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="1" Grid.Column="1"
+                    x:Name="NameEntry1"
+                    />
+
+                <Label 
+                    Text="Relationship"
+                    Grid.Row="2" Grid.Column="0"
+                    />
+
+                <Entry 
+                    Text=""
+                    Grid.Row="2" Grid.Column="1"
+                    x:Name="RelationshipEntry1"
+                    />
+
+                <Label 
+                    Text="Mobile Number"
+                    Grid.Row="3" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="3" Grid.Column="1"
+                    x:Name="MobileEntry1"
+                    />
+
+                <Label 
+                    Text="Home Number"
+                    Grid.Row="4" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="4" Grid.Column="1"
+                    x:Name="HomeEntry1"
+                    />
+                
+                <Label 
+                        Text ="Emergency Contact 2"
+                        Grid.Row="5" Grid.Column="0"
+                       />
+
+                <Label 
+                    Text="Name Of Contact:"
+                    Grid.Row="6" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="6" Grid.Column="1"
+                    />
+
+                <Label 
+                    Text="Relationship"
+                    Grid.Row="7" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="7" Grid.Column="1"
+                    />
+
+                <Label 
+                    Text="Mobile Number"
+                    Grid.Row="8" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="8" Grid.Column="1"
+                    />
+
+                <Label 
+                    Text="Home Number"
+                    Grid.Row="9" Grid.Column="0"/>
+
+                <Entry 
+                    Text=""
+                    Grid.Row="9" Grid.Column="1"
+                    />
+            </Grid>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

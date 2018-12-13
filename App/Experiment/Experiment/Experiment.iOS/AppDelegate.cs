@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using Foundation;
@@ -22,8 +23,12 @@ namespace Experiment.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            string fileName = "userdata.db.sqlite";
+            string fileLocation = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
+            string full_Path = Path.Combine(fileLocation, fileName);
+
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new App(full_Path));
 
             return base.FinishedLaunching(app, options);
         }

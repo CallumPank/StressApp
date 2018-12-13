@@ -16,5 +16,20 @@ namespace Experiment
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void backToHome(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
+
+        async void contactNumbers(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Contact());
+        }
+
+        private void Slider_ValueChanged(object sender, ValueChangedEventArgs args)
+        {
+            valueLabel.Text = args.NewValue.ToString("F3");
+        }
+    }
 }

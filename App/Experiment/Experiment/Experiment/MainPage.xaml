@@ -4,8 +4,12 @@
              xmlns:local="clr-namespace:Experiment"
              x:Class="Experiment.MainPage">
 
+    
+    
     <ContentPage.Resources>
         <ResourceDictionary>
+            
+            
             <LayoutOptions x:Key="horzOptions"
                            Alignment="Center" />
 
@@ -13,7 +17,8 @@
                            Alignment="Center"
                            Expands ="True" />
 
-            <x:Double x:Key="borderWidth">
+            
+            <!--<x:Double x:Key="borderWidth">
                 1
             </x:Double>
 
@@ -31,9 +36,17 @@
 
             <x:Double x:Key="fontSize">
                 12
-            </x:Double>
+            </x:Double>-->
 
-
+<ListView x:Name="userDataList"
+          x:Key="John">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding NameOfContact}"
+                            />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -87,5 +100,10 @@
             Clicked="contact"
                 />
 
+        
+        
     </StackLayout>
+    
+    
+        
 </ContentPage>

@@ -3,10 +3,70 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Experiment.Distressed">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Distressed"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Label Text="Stress App"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Rotation="15"
+               IsVisible="True"
+               FontSize="Large"
+               FontAttributes="Bold"
+               TextColor="IndianRed" />
     </ContentPage.Content>
+
+    <StackLayout>
+
+        <Label 
+               Text="Routine Check-Up"
+               Font="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Back"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" 
+                Clicked="backToHome"/>
+
+        <Label 
+               Text="A) Do you need urgent help?"
+               Font="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Contact Numbers"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" 
+                Clicked="contactNumbers"/>
+
+        <Label 
+               Text="B) Please rate how you are feeling on a scale of 1 (No distress, I feel fine) to 10 (This is the worst distress imaginable)."
+               Font="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Slider Maximum="10"
+                ValueChanged="Slider_ValueChanged" />
+
+
+        <Label x:Name="valueLabel"
+               Text="0.000"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Label Text="C) Do you have the urge to self-harm?" FontSize="Small" TextColor="Black" />
+        <Label Text="{Binding IsToggled,Source={x:Reference switch}}" TextColor="Black" VerticalOptions="Center"/>
+        <Switch x:Name="switch" VerticalOptions="Start"/>
+
+        <Label 
+               Text="E) Please record any thoughts/feelings you have at this time."
+               Font="Small"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+
+        <Editor Text="Enter Text Here"
+                    AutoSize="TextChanges"
+                    Keyboard="Default" />
+
+    </StackLayout>
+
 </ContentPage>

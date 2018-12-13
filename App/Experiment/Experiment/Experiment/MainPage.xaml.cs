@@ -13,6 +13,22 @@ namespace Experiment
         {
             InitializeComponent();
 
+            
+
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            using (SQLite.SQLiteConnection connection = new SQLite.SQLiteConnection(App.DataBase_Path))
+            {
+                connection.CreateTable<Data>();
+
+                var data = connection.Table<Data>().ToList();
+
+                userDataList.ItemsSource = data;
+            }
         }
 
         async void checkIn(object sender, EventArgs args)

@@ -1,0 +1,1 @@
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.UWP\Experiment.UWP.csproj;x86
