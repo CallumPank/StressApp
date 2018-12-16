@@ -4,104 +4,64 @@
              xmlns:local="clr-namespace:Experiment"
              x:Class="Experiment.MainPage">
 
-    
-    
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            
-            
-            <LayoutOptions x:Key="horzOptions"
-                           Alignment="Center" />
 
-            <LayoutOptions x:Key="vertOptions"
-                           Alignment="Center"
-                           Expands ="True" />
 
-            
-            <!--<x:Double x:Key="borderWidth">
-                1
-            </x:Double>
+    <StackLayout>
 
-            <x:Double x:Key="rotationAngle">
-                0
-            </x:Double>
 
-            <Color x:Key="textColour">
-                IndianRed
-            </Color>
 
-            <x:Double x:Key="fontSizeTitle">
-                16
-            </x:Double>
 
-            <x:Double x:Key="fontSize">
-                12
-            </x:Double>-->
-
-<ListView x:Name="userDataList"
-          x:Key="John">
+        <ListView x:Name="userDataList">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding NameOfContact}"
                             />
             </DataTemplate>
         </ListView.ItemTemplate>
-    </ListView>
+        </ListView>
 
-        </ResourceDictionary>
-    </ContentPage.Resources>
 
-    <StackLayout>
+
+
+
 
         <Label Text="Heart Rate Variability Pilot Project"
-            HorizontalOptions="{StaticResource horzOptions}"
-            VerticalOptions="{StaticResource vertOptions}"
-            Rotation="{StaticResource rotationAngle}"
-            TextColor="{StaticResource textColour}"
-            FontSize="{StaticResource fontSizeTitle}" />
+            Font="Medium"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
         
         <Button Text="Routine Check In"
-            HorizontalOptions="{StaticResource horzOptions}"
-            VerticalOptions="{StaticResource vertOptions}"
-            BorderWidth="{StaticResource borderWidth}"
-            Rotation="{StaticResource rotationAngle}"
-            TextColor="{StaticResource textColour}"
-            FontSize="{StaticResource fontSize}" 
+            VerticalOptions="Center"
+            HorizontalOptions="Center" 
             Clicked="checkIn"
                 />
 
         <Button Text="I Am Feeling Distressed"
-            HorizontalOptions="{StaticResource horzOptions}"
-            VerticalOptions="{StaticResource vertOptions}"
-            BorderWidth="{StaticResource borderWidth}"
-            Rotation="{StaticResource rotationAngle}"
-            TextColor="{StaticResource textColour}"
-            FontSize="{StaticResource fontSize}" 
+            VerticalOptions="Center"
+                HorizontalOptions="Center" 
             Clicked="distressed"
                 />
 
         <Button Text="I Have Self Harmed"
-            HorizontalOptions="{StaticResource horzOptions}"
-            VerticalOptions="{StaticResource vertOptions}"
-            BorderWidth="{StaticResource borderWidth}"
-            Rotation="{StaticResource rotationAngle}"
-            TextColor="{StaticResource textColour}"
-            FontSize="{StaticResource fontSize}" 
+            VerticalOptions="Center"
+                HorizontalOptions="Center" 
             Clicked="harmed"   
                 />
 
         <Button Text="Emergency Contact Details"
-            HorizontalOptions="{StaticResource horzOptions}"
-            VerticalOptions="{StaticResource vertOptions}"
-            BorderWidth="{StaticResource borderWidth}"
-            Rotation="{StaticResource rotationAngle}"
-            TextColor="{StaticResource textColour}"
-            FontSize="{StaticResource fontSize}" 
+                VerticalOptions="Center"
+                HorizontalOptions="Center" 
             Clicked="contact"
                 />
 
-        
-        
+        <Button Text="Email Data"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" 
+                Clicked="email"
+                />
+
+
+
     </StackLayout>
     
     

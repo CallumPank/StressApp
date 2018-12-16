@@ -5,15 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
+
 namespace Experiment
 {
     public partial class MainPage : ContentPage
     {
+        public object Email { get; private set; }
+
         public MainPage()
         {
             InitializeComponent();
 
-            
+
 
         }
 
@@ -50,5 +53,11 @@ namespace Experiment
         {
             await Navigation.PushAsync(new Contact());
         }
+
+        async void email(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new EmailPage());
+        }
+
     }
 }

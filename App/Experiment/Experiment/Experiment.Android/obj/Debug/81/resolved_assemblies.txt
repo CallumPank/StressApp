@@ -12,6 +12,8 @@ C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\o
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.dll
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Numerics.dll
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Xml.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -22,6 +24,7 @@ C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\o
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
@@ -33,13 +36,13 @@ C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\o
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\netstandard.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Data.dll
-C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Numerics.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.Transactions.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll

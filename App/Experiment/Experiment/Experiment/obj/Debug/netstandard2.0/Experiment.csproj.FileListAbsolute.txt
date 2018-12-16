@@ -28,4 +28,6 @@ C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.AssemblyInfo.cs
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.dll
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.pdb
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\Experiment.csprojAssemblyReference.cache
+C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\EmailPage.xaml.g.cs
 C:\Users\Callum\Desktop\StressApp\App\Experiment\Experiment\Experiment\obj\Debug\netstandard2.0\XamlC.stamp
