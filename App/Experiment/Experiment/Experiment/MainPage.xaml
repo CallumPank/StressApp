@@ -8,23 +8,6 @@
 
     <StackLayout>
 
-
-
-
-        <ListView x:Name="userDataList">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding NameOfContact}"
-                            />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-        </ListView>
-
-
-
-
-
-
         <Label Text="Heart Rate Variability Pilot Project"
             Font="Medium"
                HorizontalOptions="Center"

@@ -44,7 +44,9 @@
                VerticalOptions="CenterAndExpand" />
 
         <Slider Maximum="10"
-                ValueChanged="Slider_ValueChanged" />
+                ValueChanged="Slider_ValueChanged" 
+                x:Name="Slider"
+                />
 
 
         <Label x:Name="valueLabel"
@@ -54,7 +56,7 @@
 
         <Label Text="C) Do you have the urge to self-harm?" FontSize="Small" TextColor="Black" />
         <Label Text="{Binding IsToggled,Source={x:Reference switch}}" TextColor="Black" VerticalOptions="Center"/>
-        <Switch x:Name="switch" VerticalOptions="Start"/>
+        <Switch x:Name="switchdata" VerticalOptions="Start"/>
 
         <Label 
                Text="E) Please record any thoughts/feelings you have at this time."

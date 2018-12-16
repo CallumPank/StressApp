@@ -15,8 +15,6 @@
 
             <Entry x:Name ="EntryBody" 
                    Placeholder="Body"/>
-            
-            <Label  x:Name="ErrorLabel"/>
 
             <Button Text="Send Email" 
                     Clicked="Button_Clicked"/>

@@ -18,14 +18,19 @@ namespace Experiment
 		}
 
         
-        private void backToHome(object sender, EventArgs args)
+        private void SendData(object sender, EventArgs args)
         {
             Data userdata = new Data()
             {
                 NameOfContact = NameEntry1.Text,
                 Relationship = RelationshipEntry1.Text,
                 MobileNumber = MobileEntry1.Text,
-                HomeNumber = HomeEntry1.Text
+                HomeNumber = HomeEntry1.Text,
+
+                NameOfContact2 = NameEntry1.Text,
+                Relationship2 = RelationshipEntry1.Text,
+                MobileNumber2 = MobileEntry1.Text,
+                HomeNumber2 = HomeEntry1.Text
             };
 
             using (SQLite.SQLiteConnection connect = new SQLite.SQLiteConnection(App.DataBase_Path))

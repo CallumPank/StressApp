@@ -29,8 +29,6 @@ namespace Experiment
                 connection.CreateTable<Data>();
 
                 var data = connection.Table<Data>().ToList();
-
-                userDataList.ItemsSource = data;
             }
         }
 

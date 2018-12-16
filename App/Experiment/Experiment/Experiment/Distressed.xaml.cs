@@ -31,5 +31,27 @@ namespace Experiment
         {
             valueLabel.Text = args.NewValue.ToString("F3");
         }
+
+        private void backToHome(object sender, EventArgs args)
+        {
+            Data userdata = new Data()
+            {
+                //I have no idea what the end of Slider should be so i'm leaving it
+                //SliderDataDistressed = Slider.Text
+                
+            };
+
+            using (SQLite.SQLiteConnection connect = new SQLite.SQLiteConnection(App.DataBase_Path))
+            {
+                connect.CreateTable<Data>();
+                var numberOfRows = connect.Insert(userdata);
+
+                if (numberOfRows > 0)
+                    DisplayAlert("Success", "Data successfully saved", "Close");
+                else
+                    DisplayAlert("Failed", "Data not saved", "Close");
+            }
+
+        }
     }
 }

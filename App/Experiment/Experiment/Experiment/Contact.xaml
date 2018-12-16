@@ -30,7 +30,7 @@
                     Text="Back"
                     HorizontalOptions="End"
                     Grid.Row="0" Grid.Column="1"
-                    Clicked="backToHome"
+                    Clicked="SendData"
                     />
 
                 <Label 
@@ -85,38 +85,47 @@
 
                 <Label 
                     Text="Name Of Contact:"
-                    Grid.Row="6" Grid.Column="0"/>
+                    Grid.Row="6" Grid.Column="0"
+                    />
 
                 <Entry 
                     Text=""
                     Grid.Row="6" Grid.Column="1"
+                    x:Name="NameEntry2"
                     />
 
                 <Label 
                     Text="Relationship"
-                    Grid.Row="7" Grid.Column="0"/>
+                    Grid.Row="7" Grid.Column="0"
+                    
+                    />
 
                 <Entry 
                     Text=""
                     Grid.Row="7" Grid.Column="1"
+                    x:Name="RelationshipEntry2"
                     />
 
                 <Label 
                     Text="Mobile Number"
-                    Grid.Row="8" Grid.Column="0"/>
+                    Grid.Row="8" Grid.Column="0"
+                    />
 
                 <Entry 
                     Text=""
                     Grid.Row="8" Grid.Column="1"
+                    x:Name="MobileEntry2"
                     />
 
                 <Label 
                     Text="Home Number"
-                    Grid.Row="9" Grid.Column="0"/>
+                    Grid.Row="9" Grid.Column="0"
+                    />
 
                 <Entry 
                     Text=""
                     Grid.Row="9" Grid.Column="1"
+                    x:Name="HomeEntry2"
                     />
             </Grid>
 
